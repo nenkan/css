@@ -1,5 +1,6 @@
 $border-color: #dddddd;
 $border-radius: 4px;
+$box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 
 html {
   font-family: sans-serif;
@@ -87,9 +88,9 @@ ul {
 
 .panel {
   background-color: #ffffff;
-  border: 1px solid #dddddd;
+  border: 1px solid $border-color;
   border-radius: $border-radius;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: $box-shadow;
   padding: 0.5rem;
 
   &--centered {
