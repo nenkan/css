@@ -1,3 +1,4 @@
+$border-color: #dddddd;
 $border-radius: 4px;
 
 html {
@@ -23,6 +24,33 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.button {
+  background-color: #ffffff;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  padding: 4px 12px;
+  text-align: center;
+
+  &:not(:disabled) {
+    cursor: pointer;
+  }
+
+  &:hover:not(:disabled) {
+    background-color: #f5f5f5;
+    font-weight: 400;
+  }
+
+  &--primary {
+    background-color: #006994; //sea-blue
+    color: #ffffff;
+
+    &:hover {
+      //two shades darker https://www.colorhexa.com/006994
+      background-color: #004d6d;
+    }
+  }
 }
 
 .panel {
