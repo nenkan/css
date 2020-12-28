@@ -1,3 +1,5 @@
+$border-radius: 4px;
+
 html {
   font-family: sans-serif;
   box-sizing: border-box;
@@ -21,4 +23,20 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.panel {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: $border-radius;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  padding: 0.5rem;
+
+  &--centered {
+    text-align: center;
+  }
+
+  &--danger {
+    background-image: linear-gradient(to right, #ff7070, #ffffff);
+  }
 }
