@@ -53,6 +53,20 @@ ul {
   }
 }
 
+.button-group {
+  .button:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+  }
+
+  .button:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 0;
+  }
+}
+
 .panel {
   background-color: #ffffff;
   border: 1px solid #dddddd;
