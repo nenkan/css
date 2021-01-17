@@ -121,4 +121,9 @@ ul {
   &--danger {
     background-image: linear-gradient(to right, #ff7070, #ffffff);
   }
+
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
 }
