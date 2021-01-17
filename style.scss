@@ -34,6 +34,11 @@ ul {
   padding: 4px 12px;
   text-align: center;
 
+  &:disabled {
+    background-color: #b6aea7;
+    color: #000000;
+  }
+
   &:not(:disabled) {
     cursor: pointer;
   }
@@ -47,7 +52,7 @@ ul {
     background-color: #006994; //sea-blue
     color: #ffffff;
 
-    &:hover {
+    &:hover:not(:disabled) {
       //two shades darker https://www.colorhexa.com/006994
       background-color: #004d6d;
     }
