@@ -171,3 +171,27 @@ ul {
     padding: 0;
   }
 }
+
+.header {
+  background-color: #069;
+  color: #ffffff;
+  padding: 1rem;
+
+  &__inner {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  a {
+    color: #ffffff;
+  }
+}
+
+.footer {
+  background-color: #00334d;
+  color: #ffffff;
+  font-size: 0.75rem;
+  padding: 1rem;
+  text-align: center;
+}
