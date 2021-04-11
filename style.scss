@@ -195,3 +195,18 @@ ul {
   padding: 1rem;
   text-align: center;
 }
+
+.section {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+
+  &--with-items {
+    *:not(:last-child) {
+      margin-right: 0.5rem;
+    }
+  }
+
+  &--right-aligned {
+    text-align: right;
+  }
+}
