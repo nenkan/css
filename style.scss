@@ -210,3 +210,11 @@ ul {
     text-align: right;
   }
 }
+
+.textarea {
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  display: block;
+  padding: 8px;
+  width: 100%;
+}
