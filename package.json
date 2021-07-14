@@ -1,12 +1,12 @@
 {
   "name": "@nenkan/nbk-css",
   "version": "0.3.0",
-  "description": "",
+  "description": "A set of styles shared by Nenkan applications",
   "main": "style.scss",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "nbktechworld",
-  "license": "UNLICENSED"
+  "author": "nenkan",
+  "license": "MIT"
 }
