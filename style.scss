@@ -1,3 +1,4 @@
+$base-space: 0.2rem;
 $border-color: #dddddd;
 $border-radius: 4px;
 $box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -121,6 +122,10 @@ ul {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
+}
+
+.margin-left-1 {
+  margin-left: $base-space * 2;
 }
 
 .panel {
