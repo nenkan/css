@@ -208,6 +208,10 @@ ul {
   }
 }
 
+.italics {
+  font-style: italic;
+}
+
 .footer {
   background-color: #00334d;
   color: #ffffff;
@@ -252,4 +256,8 @@ ul {
   display: block;
   padding: 8px;
   width: 100%;
+}
+
+.underline {
+  text-decoration: underline;
 }
