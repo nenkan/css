@@ -33,6 +33,7 @@ ul {
   border: 1px solid $border-color;
   border-radius: $border-radius;
   color: #000000;
+  cursor: pointer;
   display: inline-block;
   font-family: inherit;
   font-size: 16px;
@@ -55,6 +56,16 @@ ul {
     font-weight: 400;
   }
 
+  &--icon {
+    align-items: center;
+    display: inline-flex;
+    font-size: 12px;
+    height: 24px;
+    justify-content: center;
+    padding: 0;
+    width: 24px;
+  }
+
   &--primary {
     background-color: #006994; //sea-blue
     color: #ffffff;
@@ -63,6 +74,10 @@ ul {
       //two shades darker https://www.colorhexa.com/006994
       background-color: #004d6d;
     }
+  }
+
+  &--rounded {
+    border-radius: 50%;
   }
 }
 
