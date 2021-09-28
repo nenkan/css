@@ -164,12 +164,32 @@ ul {
   }
 }
 
+.margin-bottom-0 {
+  margin-bottom: 0 !important;
+}
+
 .margin-bottom-1 {
   margin-bottom: $base-space * 2 !important;
 }
 
+.margin-bottom-2 {
+  margin-bottom: $base-space * 3 !important;
+}
+
+.margin-bottom-3 {
+  margin-bottom: $base-space * 4 !important;
+}
+
 .margin-left-1 {
   margin-left: $base-space * 2 !important;
+}
+
+.margin-right-1 {
+  margin-right: $base-space * 2 !important;
+}
+
+.padding-bottom-3 {
+  padding-bottom: $base-space * 4 !important;
 }
 
 .panel {
