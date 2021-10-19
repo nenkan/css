@@ -189,6 +189,11 @@ ul {
   margin-bottom: $base-space * 4 !important;
 }
 
+.margin-horizontal-1 {
+  margin-left: $base-space * 2 !important;
+  margin-right: $base-space * 2 !important;
+}
+
 .margin-left-1 {
   margin-left: $base-space * 2 !important;
 }
@@ -197,8 +202,20 @@ ul {
   margin-right: $base-space * 2 !important;
 }
 
+.margin-top-1 {
+  margin-top: $base-space * 2 !important;
+}
+
+.margin-top-3 {
+  margin-top: $base-space * 4 !important;
+}
+
 .padding-bottom-3 {
   padding-bottom: $base-space * 4 !important;
+}
+
+.padding-top-3 {
+  padding-top: $base-space * 4 !important;
 }
 
 .panel {
@@ -335,4 +352,8 @@ ul {
 
 .underline {
   text-decoration: underline;
+}
+
+.width-full {
+  width: 100%;
 }
