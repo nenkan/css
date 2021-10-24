@@ -1,5 +1,5 @@
 {
-  "name": "@nenkan/nbk-css",
+  "name": "@nenkan/css",
   "version": "0.4.0",
   "description": "A set of styles shared by Nenkan applications",
   "main": "style.scss",
