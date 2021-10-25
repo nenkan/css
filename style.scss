@@ -194,6 +194,11 @@ ul {
   margin-right: $base-space * 2 !important;
 }
 
+.margin-horizontal-2 {
+  margin-left: $base-space * 3 !important;
+  margin-right: $base-space * 3 !important;
+}
+
 .margin-left-1 {
   margin-left: $base-space * 2 !important;
 }
@@ -311,6 +316,15 @@ ul {
   }
 }
 
+.table {
+  border-collapse: collapse;
+
+  th, td {
+    border: 1px solid black;
+    padding: 6px;
+  }
+}
+
 .tag-list {
   display: inline-flex;
   flex-wrap: wrap;
@@ -342,6 +356,10 @@ ul {
     margin-left: 6px;
     width: 24px;
   }
+}
+
+.text-align-center {
+  text-align: center;
 }
 
 .textarea {
