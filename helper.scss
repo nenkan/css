@@ -1,0 +1,67 @@
+@import './variables.scss';
+
+.display-flex {
+  display: flex !important;
+}
+
+.margin-bottom-0 {
+  margin-bottom: 0 !important;
+}
+
+.margin-bottom-1 {
+  margin-bottom: $base-space * 2 !important;
+}
+
+.margin-bottom-2 {
+  margin-bottom: $base-space * 3 !important;
+}
+
+.margin-bottom-3 {
+  margin-bottom: $base-space * 4 !important;
+}
+
+.margin-horizontal-1 {
+  margin-left: $base-space * 2 !important;
+  margin-right: $base-space * 2 !important;
+}
+
+.margin-horizontal-2 {
+  margin-left: $base-space * 3 !important;
+  margin-right: $base-space * 3 !important;
+}
+
+.margin-left-1 {
+  margin-left: $base-space * 2 !important;
+}
+
+.margin-right-1 {
+  margin-right: $base-space * 2 !important;
+}
+
+.margin-top-1 {
+  margin-top: $base-space * 2 !important;
+}
+
+.margin-top-3 {
+  margin-top: $base-space * 4 !important;
+}
+
+.padding-bottom-3 {
+  padding-bottom: $base-space * 4 !important;
+}
+
+.padding-top-3 {
+  padding-top: $base-space * 4 !important;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.width-full {
+  width: 100%;
+}

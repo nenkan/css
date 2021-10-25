@@ -1,0 +1,19 @@
+@import './variables.scss';
+
+.table {
+  border-collapse: collapse;
+  border-radius: $border-radius;
+
+  &, th, td {
+    border: 1px solid $border-color;
+    padding: 6px;
+  }
+
+  th, td {
+    padding: 6px;
+  }
+
+  th {
+    background-color: $border-color;
+  }
+}

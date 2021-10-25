@@ -1,0 +1,45 @@
+@import './variables.scss';
+
+.form-group {
+  margin-top: 0.5rem;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &__error {
+    color: #ff7070;
+    font-size: 12px;
+    padding: 3px;
+  }
+
+  label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+}
+
+.input {
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  padding: 6px 9px;
+
+  .form-group.form-group--error & {
+    border-color: #ff7070;
+  }
+}
+
+.input-group {
+  .input.input--has-right {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-right: 0;
+  }
+
+  &__right {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+}

@@ -1,0 +1,85 @@
+@import './variables.scss';
+
+.button {
+  background-color: #ffffff;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  color: #000000;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 4px 12px;
+  text-align: center;
+  text-decoration: none;
+
+  &--toggle {
+    &[aria-pressed="true"] {
+      background-color: #006994;
+      color: #ffffff;
+
+      &:hover {
+        background-color: #0085bb !important;
+      }
+    }
+  }
+
+  &:disabled {
+    background-color: #b6aea7;
+    color: #000000;
+  }
+
+  &:not(:disabled) {
+    cursor: pointer;
+  }
+
+  &:hover:not(:disabled) {
+    background-color: #f5f5f5;
+    font-weight: 400;
+  }
+
+  &--bare {
+    background-color: transparent;
+    border: 0;
+  }
+
+  &--icon {
+    align-items: center;
+    display: inline-flex;
+    font-size: 12px;
+    height: 24px;
+    justify-content: center;
+    padding: 0;
+    width: 24px;
+  }
+
+  &--primary {
+    background-color: #006994; //sea-blue
+    color: #ffffff;
+
+    &:hover:not(:disabled) {
+      //two shades darker https://www.colorhexa.com/006994
+      background-color: #004d6d;
+    }
+  }
+
+  &--rounded {
+    border-radius: 50%;
+  }
+}
+
+.button-group {
+  display: inline-block;
+
+  .button:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+  }
+
+  .button:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 0;
+  }
+}
