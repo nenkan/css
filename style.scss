@@ -2,6 +2,7 @@
 @import './floating-notice.scss';
 @import './form.scss';
 @import './helper.scss';
+@import './panel.scss';
 @import './table.scss';
 @import './variables.scss';
 
@@ -41,44 +42,6 @@ ul {
   border-radius: 6px;
   font-size: 0.75rem;
   font-weight: 600;
-}
-
-.panel {
-  background-color: #ffffff;
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
-  box-shadow: $box-shadow;
-  padding: 0.5rem;
-
-  &:focus {
-    border-color: #006994;
-  }
-
-  &--centered {
-    text-align: center;
-  }
-
-  &--danger {
-    background-image: linear-gradient(to right, #ff7070, #ffffff);
-  }
-
-  &--warning {
-    color: #000000;
-    background-color: #ffcc00;
-  }
-
-  a {
-    color: #000000;
-    text-decoration: none;
-  }
-
-  ul & {
-    margin-bottom: 0.5rem;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
 }
 
 .container {
