@@ -1,0 +1,16 @@
+.header {
+  background-color: #069;
+  border-bottom: 2px solid #000000;
+  color: #ffffff;
+  padding: 1rem;
+
+  &__inner {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  a {
+    color: #ffffff;
+  }
+}
