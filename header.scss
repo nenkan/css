@@ -2,7 +2,7 @@
   background-color: #069;
   border-bottom: 2px solid #000000;
   color: #ffffff;
-  padding: 1rem;
+  padding: 0.75rem;
 
   &__inner {
     align-items: center;
@@ -12,5 +12,17 @@
 
   a {
     color: #ffffff;
+  }
+
+  &__title {
+    margin-right: 24px;
+  }
+
+  &__navigation-item {
+    margin-right: 16px;
+
+    &--no-margin {
+      margin-right: 0;
+    }
   }
 }
