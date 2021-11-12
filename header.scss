@@ -1,7 +1,9 @@
+@import './variables.scss';
+
 .header {
-  background-color: #069;
-  border-bottom: 2px solid #000000;
-  color: #ffffff;
+  background-color: $primary;
+  border-bottom: 2px solid #000a10;
+  color: $text-on-primary;
   padding: 0.75rem;
 
   &__inner {
@@ -11,14 +13,17 @@
   }
 
   a {
-    color: #ffffff;
+    color: $text-on-primary;
   }
 
   &__title {
+    font-size: 1.2em;
     margin-right: 24px;
+    text-shadow: -3px 3px 2px $dark;
   }
 
   &__navigation {
+    align-items: center;
     display: flex;
   }
 
