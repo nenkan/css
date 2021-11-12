@@ -68,6 +68,12 @@
   }
 }
 
+.button-link {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .button-group {
   display: inline-block;
 
