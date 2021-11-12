@@ -20,6 +20,10 @@
     font-size: 1.2em;
     margin-right: 24px;
     text-shadow: -3px 3px 2px $dark;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   &__navigation {
