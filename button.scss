@@ -63,6 +63,14 @@
     }
   }
 
+  &--secondary {
+    background-color: #94e0ff;
+
+    &:hover:not(:disabled) {
+      background-color: #6dd5ff;
+    }
+  }
+
   &--rounded {
     border-radius: 50%;
   }

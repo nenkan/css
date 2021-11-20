@@ -1,8 +1,10 @@
 @import './breadcrumb.scss';
 @import './button.scss';
+@import './container.scss';
 @import './floating-notice.scss';
 @import './footer.scss';
 @import './form.scss';
+@import './grid.scss';
 @import './header.scss';
 @import './helper.scss';
 @import './panel.scss';
@@ -50,18 +52,6 @@ ul {
   border-radius: 6px;
   font-size: 0.75rem;
   font-weight: 600;
-}
-
-.container {
-  $gutter-width: 12px;
-  margin: 0;
-  padding: 0;
-
-  @media screen and (min-width: 800px + $gutter-width * 2) {
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 0 $gutter-width;
-  }
 }
 
 .italics {
