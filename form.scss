@@ -50,3 +50,29 @@
     border-bottom-left-radius: 0;
   }
 }
+
+
+
+.form {
+  &__submit-button-group {
+    position: relative;
+  }
+
+  &__submit-button-error {
+    background-color: $color-danger;
+    border-radius: $border-radius;
+    border: 1px solid $border-color;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 3px;
+    min-width: 240px;
+    padding: 2px 3px;
+    position: absolute;
+    text-align: center;
+
+    &--align-right {
+      border-top-right-radius: 0;
+      right: 0;
+    }
+  }
+}
