@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 .floating-notice {
   $gp: &;
   display: flex;
@@ -15,7 +17,7 @@
   justify-content: center;
 
   &--danger {
-    background-color: #993300;
+    background-color: $color-danger;
     color: #ffffff;
 
     #{$gp}__close-button {
