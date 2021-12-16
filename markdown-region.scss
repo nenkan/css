@@ -1,6 +1,10 @@
 .markdown-region {
   word-wrap: break-word;
 
+  a {
+    color: $primary !important;
+  }
+
   pre {
     overflow: auto;
     background-color: #f4f4f4;
