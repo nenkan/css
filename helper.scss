@@ -1,5 +1,9 @@
 @import './variables.scss';
 
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
 .display-flex {
   display: flex !important;
 }

@@ -71,6 +71,16 @@
     }
   }
 
+  &--danger {
+    background-color: $color-danger;
+    color: $text-on-primary;
+
+    &:hover:not(:disabled) {
+      background-color: $color-danger;
+      opacity: 0.9;
+    }
+  }
+
   &--rounded {
     border-radius: 50%;
   }
