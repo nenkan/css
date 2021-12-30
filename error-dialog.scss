@@ -1,0 +1,14 @@
+.error-dialog {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #c10000;
+  padding: 1rem;
+  color: #ffffff;
+  text-align: center;
+
+  &__close-button {
+    float: right;
+  }
+}
