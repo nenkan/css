@@ -7,6 +7,11 @@
     color: $primary !important;
   }
 
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
   pre {
     overflow: auto;
     background-color: #f4f4f4;
