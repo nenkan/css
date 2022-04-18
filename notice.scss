@@ -1,11 +1,46 @@
+@import 'variables.scss';
+
 .notice {
-  border: 1px solid black;
-  border-radius: 4px;
-  margin-bottom: 1rem;
-  padding: 1rem;
+  $gp: &;
+  align-items: center;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: $border-radius;
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+  position: relative;
 
   &--danger {
-    background-color: #ff0000;
+    background-color: $color-danger;
     color: #ffffff;
+
+    #{$gp}__close-button {
+      color: #ffffff;
+    }
+  }
+
+  &--floating {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0.5rem;
+    justify-content: center;
+    z-index: 1;
+  }
+
+  &__message {
+    flex: 1;
+  }
+
+  &__close-button {
+    cursor: pointer;
+    background-color: inherit;
+    border: 0;
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
   }
 }
