@@ -4,9 +4,13 @@
   "description": "A set of styles shared by Nenkan applications",
   "main": "style.scss",
   "scripts": {
+    "build": "sass --style=compressed style.scss dist/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "nenkan",
   "license": "MIT",
-  "source": true
+  "source": true,
+  "devDependencies": {
+    "sass": "^1.51.0"
+  }
 }
