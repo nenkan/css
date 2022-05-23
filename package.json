@@ -2,7 +2,7 @@
   "name": "@nenkan/css",
   "version": "0.8.0",
   "description": "A set of styles shared by Nenkan applications",
-  "main": "style.scss",
+  "main": "index.scss",
   "scripts": {
     "build": "sass --style=compressed style.scss dist/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
