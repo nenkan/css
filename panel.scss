@@ -1,4 +1,4 @@
-@import './variables.scss'; 
+@import './variables.scss';
 
 .panel {
   background-color: #ffffff;
@@ -36,4 +36,10 @@
       margin-bottom: 0;
     }
   }
+}
+
+.panel-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
