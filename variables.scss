@@ -1,6 +1,8 @@
+@use "sass:math";
+
 /* Spacing */
 $base-space: 8px;
-$space-unit-1: $base-space / 2; // 4px
+$space-unit-1: math.div($base-space, 2); // 4px
 $space-unit-2: $base-space;
 $space-unit-3: $base-space * 2; // 16px
 $space-unit-4: $base-space * 3; // 24px

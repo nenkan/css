@@ -1,3 +1,4 @@
+@use "sass:math";
 @import './variables.scss';
 
 .form-group {
@@ -17,7 +18,7 @@
     display: block;
     font-size: 1.2rem;
     font-weight: 600;
-    margin-bottom: $base-space / 2;
+    margin-bottom: math.div($base-space, 2);
   }
 }
 
@@ -25,7 +26,7 @@
   display: block;
   font-size: 1.2rem;
   font-weight: 600;
-  margin-bottom: $base-space / 2;
+  margin-bottom: math.div($base-space, 2);
 }
 
 .input {

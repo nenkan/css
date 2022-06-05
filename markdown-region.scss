@@ -1,3 +1,4 @@
+@use "sass:math";
 @import './variables.scss';
 
 .markdown-region {
@@ -37,7 +38,7 @@
   code {
     background-color: #f4f4f4;
     border-radius: $border-radius;
-    padding: ($base-space / 4) ($base-space / 2);
+    padding: math.div($base-space, 4) math.div($base-space, 2);
   }
 
   hr {
@@ -48,7 +49,7 @@
   }
 
   li {
-    margin-bottom: $base-space / 2;
+    margin-bottom: math.div($base-space, 2);
   }
 
   p {
