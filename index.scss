@@ -17,7 +17,7 @@
 html {
   font-family: sans-serif;
   box-sizing: border-box;
-  font-size: 100%;
+  font-size: 62.5%;
 }
 
 *, *:before, *:after {
@@ -25,12 +25,13 @@ html {
 }
 
 body {
+  font-size: 1.6rem;
   margin: 0;
 }
 
 h1, h2, h3 {
-  font-size: 1rem;
-  margin: 0 0 0.5rem;
+  font-size: 1.6rem;
+  margin: 0 0 $base-space;
 }
 
 a {
@@ -45,9 +46,9 @@ a {
 .badge {
   background-color: #cccccc;
   display: inline-block;
-  padding: 0.10rem 0.4rem;
+  padding: ($base-space / 4) ($base-space / 2);
   border-radius: 6px;
-  font-size: 0.75rem;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 
@@ -56,12 +57,12 @@ a {
 }
 
 .section {
-  margin-bottom: 0.5rem;
-  margin-top: 0.5rem;
+  margin-bottom: $base-space;
+  margin-top: $base-space;
 
   &--with-items {
     *:not(:last-child) {
-      margin-right: 0.5rem;
+      margin-right: $base-space;
     }
   }
 
@@ -79,10 +80,10 @@ a {
   &__item {
     display: inline-block;
     background-color: #e2e2e2;
-    padding: 0.25rem 0.5rem;
+    padding: ($base-space / 2) $base-space;
     border-radius: 4px;
-    margin-bottom: 0.5rem;
-    margin-right: 0.5rem;
+    margin-bottom: $base-space;
+    margin-right: $base-space;
 
     select {
       background-color: transparent;

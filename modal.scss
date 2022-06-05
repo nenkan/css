@@ -10,7 +10,7 @@
   &__container {
     border: 2px solid black;
     border-radius: 4px;
-    padding: 1rem;
+    padding: $base-space * 2;
     background-color: #ffffff;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
@@ -29,6 +29,6 @@
 
   &__title {
     flex: 1;
-    margin-bottom: 1rem;
+    margin-bottom: $base-space * 2;
   }
 }

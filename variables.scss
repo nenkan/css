@@ -1,4 +1,10 @@
-$base-space: 0.2rem;
+/* Spacing */
+$base-space: 8px;
+$space-unit-1: $base-space / 2; // 4px
+$space-unit-2: $base-space;
+$space-unit-3: $base-space * 2; // 16px
+$space-unit-4: $base-space * 3; // 24px
+
 $border-color: #dddddd;
 $border-radius: 4px;
 $box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
