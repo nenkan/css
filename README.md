@@ -15,13 +15,13 @@ import '@nenkan/css'
 If you want to use the compiled CSS version:
 
 ```js
-import '@nenkan/css/dist/style.css'
+import '@nenkan/css/dist/index.css'
 ```
 
 If you want to use a CDN version:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/@nenkan/css@0.8.0/dist/style.css">
+<link rel="stylesheet" href="https://unpkg.com/@nenkan/css@0.10.0/dist/index.css">
 ```
 
 ## Deployment
