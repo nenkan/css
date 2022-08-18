@@ -1,8 +1,10 @@
+@import './variables.scss';
+
 .container {
-  margin: 0;
+  margin: 0 $space-unit-2;
 
   @media screen and (min-width: 800px) {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 800px - $space-unit-2;
   }
 }
