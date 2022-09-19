@@ -12,12 +12,20 @@
   border-top: 1px solid $border-color;
 }
 
+.display-block {
+  display: block;
+}
+
 .display-flex {
   display: flex !important;
 }
 
 .display-none {
   display: none;
+}
+
+.justify-content-center {
+  justify-content: center;
 }
 
 .justify-content-space-between {
