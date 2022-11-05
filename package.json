@@ -11,6 +11,6 @@
   "license": "MIT",
   "source": true,
   "devDependencies": {
-    "sass": "^1.51.0"
+    "sass": "^1.56.0"
   }
 }
