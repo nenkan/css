@@ -9,6 +9,10 @@
   },
   "author": "nenkan",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nenkan/css.git"
+  },
   "source": true,
   "devDependencies": {
     "sass": "^1.56.0"
