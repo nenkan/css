@@ -1,6 +1,6 @@
 {
   "name": "@nenkan/css",
-  "version": "0.11.0",
+  "version": "0.11.1",
   "description": "A set of styles shared by Nenkan applications",
   "main": "index.scss",
   "scripts": {
@@ -10,6 +10,9 @@
   "author": "nenkan",
   "homepage": "https://nenkan.github.io/css/",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/nenkan/css.git"
