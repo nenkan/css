@@ -1,6 +1,6 @@
 {
   "name": "@nenkan/css",
-  "version": "0.11.2",
+  "version": "0.12.0",
   "description": "A set of styles shared by Nenkan applications",
   "main": "index.scss",
   "scripts": {
@@ -16,6 +16,6 @@
   },
   "source": true,
   "devDependencies": {
-    "sass": "^1.56.1"
+    "sass": "^1.63.3"
   }
 }
