@@ -1,6 +1,7 @@
 @use "sass:math";
 @import './breadcrumb.scss';
 @import './button.scss';
+@import './color.scss';
 @import './container.scss';
 @import './footer.scss';
 @import './form.scss';
@@ -14,7 +15,6 @@
 @import './table.scss';
 @import './typography.scss';
 @import './variables.scss';
-@import './color.scss';
 
 html {
   font-family: sans-serif;
