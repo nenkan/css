@@ -37,6 +37,27 @@
   .form-group.form-group--error & {
     border-color: #ff7070;
   }
+
+  &--error {
+    border-color: #ff7070;
+  }
+}
+
+.input-attached-error {
+  background-color: #993300;
+  color: #ffffff;
+  position: absolute;
+  width: 100%;
+  padding: 4px 8px;
+  border-radius: 0 0 16px 0;
+  z-index: 1;
+
+  &__close {
+    position: absolute;
+    right: 8px;
+    top: 0;
+    cursor: pointer;
+  }
 }
 
 .input-group {
