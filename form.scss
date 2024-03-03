@@ -2,11 +2,7 @@
 @import './variables.scss';
 
 .form-group {
-  margin-top: $base-space;
-
-  &:first-child {
-    margin-top: 0;
-  }
+  margin-bottom: $base-space;
 
   &__error {
     color: #ff7070;
