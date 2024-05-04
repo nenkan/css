@@ -20,6 +20,11 @@
     }
   }
 
+  &--warning {
+    background-color: $background-color-warning;
+    color: $text-color-warning;
+  }
+
   &--floating {
     position: fixed;
     top: 0;
@@ -28,6 +33,10 @@
     margin: $base-space;
     justify-content: center;
     z-index: 1;
+  }
+
+  &__icon {
+    margin-right: $space-unit-2;
   }
 
   &__message {
