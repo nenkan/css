@@ -20,6 +20,11 @@
     }
   }
 
+  &--success {
+    background-color: $background-color-success;
+    color: $text-color-success;
+  }
+
   &--warning {
     background-color: $background-color-warning;
     color: $text-color-warning;
