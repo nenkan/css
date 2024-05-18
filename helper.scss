@@ -135,6 +135,10 @@
   overflow: auto;
 }
 
+.overflow-wrap-break-word {
+  overflow-wrap: break-word;
+}
+
 .padding-bottom-1 {
   padding-bottom: $space-unit-1;
 }
