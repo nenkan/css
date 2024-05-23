@@ -135,6 +135,10 @@
   overflow: auto;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .overflow-wrap-break-word {
   overflow-wrap: break-word;
 }
@@ -190,6 +194,10 @@
 
 .text-align-center {
   text-align: center;
+}
+
+.text-overflow-ellipsis {
+  text-overflow: ellipsis;
 }
 
 .top-0 {
