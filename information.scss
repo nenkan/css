@@ -1,0 +1,17 @@
+.information-group {
+  font-size: 14px;
+  margin-bottom: 8px;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 8px;
+
+  &__label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  &__value {
+    display: block;
+  }
+}
