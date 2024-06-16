@@ -10,11 +10,20 @@
     padding: 3px;
   }
 
+  &__explanation {
+    font-size: 0.80em;
+  }
+
   > label {
     display: block;
     font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: math.div($base-space, 2);
+  }
+
+  &--inline > label {
+    display: inline-block;
+    margin-right: 8px;
   }
 }
 
