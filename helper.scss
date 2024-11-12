@@ -64,6 +64,10 @@
   flex: 1;
 }
 
+.font-size-3 {
+  font-size: $font-size-3;
+}
+
 .justify-content-center {
   justify-content: center;
 }
@@ -159,6 +163,10 @@
   overflow-wrap: break-word;
 }
 
+.padding-3 {
+  padding: $space-unit-3;
+}
+
 .padding-bottom-1 {
   padding-bottom: $space-unit-1;
 }
@@ -246,4 +254,8 @@
 
 .white-space-nowrap {
   white-space: nowrap;
+}
+
+.white-space-pre-wrap {
+  white-space: pre-wrap;
 }
