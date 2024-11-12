@@ -1,19 +1,45 @@
 @import './variables.scss';
 
 .table {
-  border-collapse: collapse;
-  border-radius: $border-radius;
+  $table-border-color: #22242626;
 
-  &, th, td {
-    border: 1px solid $border-color;
-    padding: 6px;
+  background-color: #ffffff;
+  border-radius: $border-radius;
+  border-spacing: 0;
+  border: 1px solid $table-border-color;
+  text-align: left;
+  width: 100%;
+
+  tr:first-child td {
+    border-top: none;
   }
 
   th, td {
     padding: 6px;
+
+    &:first-child {
+      border-left: none;
+    }
+  }
+
+  td {
+    padding: 11px;
+    border-top: 1px solid $table-border-color;
+    border-left: 1px solid $table-border-color; 
   }
 
   th {
-    background-color: $border-color;
+    background-color: #edf0f3;
+    border-bottom: 1px solid $table-border-color;
+    border-left: 1px solid $table-border-color;
+    padding: 13px 11px;
+
+    &:first-child {
+      border-radius: $border-radius 0 0 0;
+    }
+
+    &:last-child {
+      border-radius: 0 $border-radius 0 0;
+    }
   }
 }
