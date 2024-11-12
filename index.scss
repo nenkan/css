@@ -1,21 +1,21 @@
 @use "sass:math";
-@import './breadcrumb.scss';
-@import './button.scss';
-@import './color.scss';
-@import './container.scss';
-@import './footer.scss';
-@import './form.scss';
-@import './grid.scss';
-@import './header.scss';
-@import './helper.scss';
-@import './information.scss';
-@import './markdown-region.scss';
-@import './modal.scss';
-@import './notice.scss';
-@import './panel.scss';
-@import './table.scss';
-@import './typography.scss';
-@import './variables.scss';
+@use 'breadcrumb.scss';
+@use 'button.scss';
+@use 'color.scss';
+@use 'container.scss';
+@use 'footer.scss';
+@use 'form.scss';
+@use 'grid.scss';
+@use 'header.scss';
+@use 'helper.scss';
+@use 'information.scss';
+@use 'markdown-region.scss';
+@use 'modal.scss';
+@use 'notice.scss';
+@use 'panel.scss';
+@use 'table.scss';
+@use 'typography.scss';
+@use 'variables.scss';
 
 html {
   font-family: sans-serif;
@@ -46,7 +46,7 @@ a {
   align-items: center;
   background-color: #cccccc;
   display: inline-flex;
-  padding: math.div($base-space, 4) math.div($base-space, 2);
+  padding: math.div(variables.$base-space, 4) math.div(variables.$base-space, 2);
   border-radius: 6px;
   font-size: 1.2rem;
   font-weight: 600;
@@ -57,12 +57,12 @@ a {
 }
 
 .section {
-  margin-bottom: $base-space;
-  margin-top: $base-space;
+  margin-bottom: variables.$base-space;
+  margin-top: variables.$base-space;
 
   &--with-items {
     *:not(:last-child) {
-      margin-right: $base-space;
+      margin-right: variables.$base-space;
     }
   }
 
@@ -80,10 +80,10 @@ a {
   &__item {
     display: inline-block;
     background-color: #e2e2e2;
-    padding: math.div($base-space, 2) $base-space;
+    padding: math.div(variables.$base-space, 2) variables.$base-space;
     border-radius: 4px;
-    margin-bottom: $base-space;
-    margin-right: $base-space;
+    margin-bottom: variables.$base-space;
+    margin-right: variables.$base-space;
 
     select {
       background-color: transparent;
@@ -105,8 +105,8 @@ a {
 }
 
 .textarea {
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
+  border: 1px solid variables.$border-color;
+  border-radius: variables.$border-radius;
   display: block;
   padding: 8px;
   width: 100%;

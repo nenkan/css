@@ -1,11 +1,11 @@
-@import './variables.scss';
+@use 'variables.scss';
 
 .panel {
   background-color: #ffffff;
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
-  box-shadow: $box-shadow;
-  padding: $base-space;
+  border: 1px solid variables.$border-color;
+  border-radius: variables.$border-radius;
+  box-shadow: variables.$box-shadow;
+  padding: variables.$base-space;
 
   &:focus {
     border-color: #006994;
@@ -30,7 +30,7 @@
   }
 
   ul & {
-    margin-bottom: $base-space;
+    margin-bottom: variables.$base-space;
 
     &:last-child {
       margin-bottom: 0;

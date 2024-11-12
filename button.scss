@@ -1,9 +1,9 @@
-@import './variables.scss';
+@use 'variables.scss';
 
 .button {
   background-color: #ffffff;
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
+  border: 1px solid variables.$border-color;
+  border-radius: variables.$border-radius;
   color: #000000;
   display: inline-block;
   font-family: inherit;
@@ -76,11 +76,11 @@
   }
 
   &--danger {
-    background-color: $color-danger;
-    color: $text-on-primary;
+    background-color: variables.$color-danger;
+    color: variables.$text-on-primary;
 
     &:hover:not(:disabled) {
-      background-color: $color-danger;
+      background-color: variables.$color-danger;
       opacity: 0.9;
     }
   }

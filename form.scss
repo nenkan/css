@@ -1,8 +1,8 @@
 @use "sass:math";
-@import './variables.scss';
+@use 'variables.scss';
 
 .form-group {
-  margin-bottom: $base-space;
+  margin-bottom: variables.$base-space;
 
   &__error {
     color: #ff7070;
@@ -18,7 +18,7 @@
     display: block;
     font-size: 1.2rem;
     font-weight: 600;
-    margin-bottom: math.div($base-space, 2);
+    margin-bottom: math.div(variables.$base-space, 2);
   }
 
   &--inline > label {
@@ -31,12 +31,12 @@
   display: block;
   font-size: 1.2rem;
   font-weight: 600;
-  margin-bottom: math.div($base-space, 2);
+  margin-bottom: math.div(variables.$base-space, 2);
 }
 
 .input {
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
+  border: 1px solid variables.$border-color;
+  border-radius: variables.$border-radius;
   padding: 6px 9px;
 
   .form-group.form-group--error & {
@@ -86,9 +86,9 @@
   }
 
   &__submit-button-error {
-    background-color: $color-danger;
-    border-radius: $border-radius;
-    border: 1px solid $border-color;
+    background-color: variables.$color-danger;
+    border-radius: variables.$border-radius;
+    border: 1px solid variables.$border-color;
     color: #ffffff;
     font-size: 14px;
     margin-top: 3px;

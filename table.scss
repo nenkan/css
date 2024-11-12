@@ -1,10 +1,10 @@
-@import './variables.scss';
+@use 'variables.scss';
 
 .table {
   $table-border-color: #22242626;
 
   background-color: #ffffff;
-  border-radius: $border-radius;
+  border-radius: variables.$border-radius;
   border-spacing: 0;
   border: 1px solid $table-border-color;
   text-align: left;
@@ -35,11 +35,11 @@
     padding: 13px 11px;
 
     &:first-child {
-      border-radius: $border-radius 0 0 0;
+      border-radius: variables.$border-radius 0 0 0;
     }
 
     &:last-child {
-      border-radius: 0 $border-radius 0 0;
+      border-radius: 0 variables.$border-radius 0 0;
     }
   }
 }

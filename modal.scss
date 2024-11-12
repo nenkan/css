@@ -1,4 +1,4 @@
-@import './variables.scss';
+@use 'variables.scss';
 
 .modal {
   background-color: rgba(0, 0, 0, 0.5);
@@ -12,7 +12,7 @@
   &__container {
     border: 2px solid black;
     border-radius: 4px;
-    padding: $base-space * 2;
+    padding: variables.$base-space * 2;
     background-color: #ffffff;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
@@ -32,6 +32,6 @@
 
   &__title {
     flex: 1;
-    margin-bottom: $base-space * 2;
+    margin-bottom: variables.$base-space * 2;
   }
 }

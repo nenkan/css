@@ -1,11 +1,11 @@
 @use "sass:math";
-@import './variables.scss';
+@use 'variables.scss';
 
 .markdown-region {
   word-wrap: break-word;
 
   a {
-    color: $primary !important;
+    color: variables.$primary !important;
   }
 
   img {
@@ -16,8 +16,8 @@
   pre {
     overflow: auto;
     background-color: #f4f4f4;
-    padding: $base-space * 1.5;
-    border-radius: $border-radius;
+    padding: variables.$base-space * 1.5;
+    border-radius: variables.$border-radius;
 
     code {
       background-color: #f4f4f400;
@@ -27,8 +27,8 @@
   }
 
   ul {
-    padding-left: $base-space * 2;
-    margin-bottom: $base-space * 2;
+    padding-left: variables.$base-space * 2;
+    margin-bottom: variables.$base-space * 2;
 
     li:last-child {
       margin-bottom: 0;
@@ -37,7 +37,7 @@
 
   code {
     background-color: #f4f4f4;
-    border-radius: $border-radius;
+    border-radius: variables.$border-radius;
     padding: 1.6px 3.2px;
     white-space: pre;
   }
@@ -46,15 +46,15 @@
     border-color: #cccccc;
     border-style: solid;
     border-width: 0 0 1px 0;
-    margin: ($base-space * 2) 0;
+    margin: (variables.$base-space * 2) 0;
   }
 
   li {
-    margin-bottom: math.div($base-space, 2);
+    margin-bottom: math.div(variables.$base-space, 2);
   }
 
   p {
-    margin: 0 0 $base-space;
+    margin: 0 0 variables.$base-space;
 
     &:last-child {
       margin-bottom: 0;
@@ -66,7 +66,7 @@
 
     td, th {
       border: 1px solid #000000;
-      padding: $base-space;
+      padding: variables.$base-space;
     }
   }
 }

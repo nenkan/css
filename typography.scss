@@ -1,37 +1,37 @@
-@import './variables.scss';
+@use 'variables.scss';
 
 p {
-  font-size: $font-size-2;
-  margin: 0 0 $space-unit-2;
+  font-size: variables.$font-size-2;
+  margin: 0 0 variables.$space-unit-2;
 }
 
 h1, h2, h3 {
   font-weight: 400;
-  margin: 0 0 $space-unit-3;
+  margin: 0 0 variables.$space-unit-3;
 }
 
 h1 {
-  font-size: $font-size-5;
+  font-size: variables.$font-size-5;
 }
 
 h2 {
-  font-size: $font-size-4;
+  font-size: variables.$font-size-4;
 }
 
 h3 {
-  font-size: $font-size-3;
+  font-size: variables.$font-size-3;
 }
 
 .font-size-1 {
-  font-size: $font-size-1;
+  font-size: variables.$font-size-1;
 }
 
 .font-size-2 {
-  font-size: $font-size-2;
+  font-size: variables.$font-size-2;
 }
 
 .font-size-3 {
-  font-size: $font-size-3;
+  font-size: variables.$font-size-3;
 }
 
 .font-weight-600 {

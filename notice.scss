@@ -1,18 +1,18 @@
-@import 'variables.scss';
+@use 'variables.scss';
 
 .notice {
   $gp: &;
   align-items: center;
   background-color: #ffffff;
   border: 2px solid #000000;
-  border-radius: $border-radius;
+  border-radius: variables.$border-radius;
   display: flex;
   flex-direction: row;
-  padding: $base-space;
+  padding: variables.$base-space;
   position: relative;
 
   &--danger {
-    background-color: $color-danger;
+    background-color: variables.$color-danger;
     color: #ffffff;
 
     #{$gp}__close-button {
@@ -21,13 +21,13 @@
   }
 
   &--success {
-    background-color: $background-color-success;
-    color: $text-color-success;
+    background-color: variables.$background-color-success;
+    color: variables.$text-color-success;
   }
 
   &--warning {
-    background-color: $background-color-warning;
-    color: $text-color-warning;
+    background-color: variables.$background-color-warning;
+    color: variables.$text-color-warning;
   }
 
   &--floating {
@@ -35,13 +35,13 @@
     top: 0;
     left: 0;
     right: 0;
-    margin: $base-space;
+    margin: variables.$base-space;
     justify-content: center;
     z-index: 1;
   }
 
   &__icon {
-    margin-right: $space-unit-2;
+    margin-right: variables.$space-unit-2;
   }
 
   &__message {

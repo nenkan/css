@@ -1,10 +1,10 @@
-@import './variables.scss';
+@use 'variables.scss';
 
 .header {
-  background-color: $primary;
+  background-color: variables.$primary;
   border-bottom: 2px solid #000a10;
-  color: $text-on-primary;
-  padding: $base-space * 1.5 0;
+  color: variables.$text-on-primary;
+  padding: variables.$base-space * 1.5 0;
 
   &__inner {
     align-items: center;
@@ -13,13 +13,13 @@
   }
 
   a {
-    color: $text-on-primary;
+    color: variables.$text-on-primary;
   }
 
   &__title {
     font-size: 1.2em;
     margin-right: 24px;
-    text-shadow: -3px 3px 2px $dark;
+    text-shadow: -3px 3px 2px variables.$dark;
 
     &:hover {
       text-decoration: none;
