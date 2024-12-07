@@ -20,6 +20,12 @@
     }
   }
 
+  &--info {
+    background-color: variables.$background-color-info;
+    border-color: variables.$border-color-info;
+    color: variables.$text-color-info;
+  }
+
   &--success {
     background-color: variables.$background-color-success;
     color: variables.$text-color-success;
