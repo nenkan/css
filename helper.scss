@@ -20,6 +20,10 @@
   align-items: normal !important;
 }
 
+.align-items-stretch {
+  align-items: stretch;
+}
+
 .align-self-flex-start {
   align-self: flex-start;
 }
@@ -62,6 +66,18 @@
 
 .flex-1 {
   flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+.flex-direction-column {
+  flex-direction: column;
 }
 
 .font-size-3 {
@@ -220,6 +236,10 @@
   right: 0;
 }
 
+.right-8px {
+  right: 8px;
+}
+
 .text-align-left {
   text-align: left !important;
 }
@@ -244,6 +264,10 @@
   top: 0;
 }
 
+.top-8px {
+  top: 8px;
+}
+
 .underline {
   text-decoration: underline;
 }
@@ -256,8 +280,16 @@
   vertical-align: text-bottom;
 }
 
+.vertical-align-text-top {
+  vertical-align: text-top;
+}
+
 .width-full {
   width: 100%;
+}
+
+.word-break-break-word {
+  word-break: break-word;
 }
 
 .word-break-break-all {
