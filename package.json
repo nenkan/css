@@ -1,6 +1,6 @@
 {
   "name": "@nenkan/css",
-  "version": "0.21.1",
+  "version": "0.22.0",
   "description": "A set of styles shared by Nenkan applications",
   "main": "index.scss",
   "scripts": {
