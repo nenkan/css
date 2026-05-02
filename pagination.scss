@@ -1,26 +1,112 @@
 @use 'variables.scss';
 
 .pagination {
-  &--controls {
+  align-items: center;
+  border-top: 1px solid variables.$border-color;
+  display: flex;
+  flex-wrap: wrap;
+  gap: variables.$space-unit-3;
+  justify-content: space-between;
+  margin-top: variables.$space-unit-3;
+  padding-top: variables.$space-unit-3;
+
+  &__per-page {
     align-items: center;
     display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    justify-content: space-between;
+    gap: variables.$space-unit-2;
   }
 
-  &__left,
-  &__right {
+  &__per-page-label {
+    color: variables.$dark;
+    font-size: variables.$font-size-2;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+
+  &__per-page-select {
+    // stylelint-disable-next-line property-no-vendor-prefix
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%23666666' d='M0 0l5 6 5-6z'/%3E%3C/svg%3E");
+    background-position: right 8px center;
+    background-repeat: no-repeat;
+    border: 1px solid variables.$border-color;
+    border-radius: variables.$border-radius;
+    color: variables.$dark;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: variables.$font-size-2;
+    padding: 5px 28px 5px 8px;
+
+    &:focus {
+      border-color: variables.$primary;
+      outline: 2px solid rgba(0, 102, 153, 0.2);
+      outline-offset: 0;
+    }
+  }
+
+  &__nav {
     align-items: center;
     display: flex;
-  }
-
-  &__left {
-    margin-bottom: 0;
+    gap: variables.$space-unit-3;
   }
 
   &__page-label {
     color: variables.$dark;
+    font-size: variables.$font-size-2;
     font-weight: 500;
+    white-space: nowrap;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: variables.$space-unit-1;
+  }
+
+  &__btn {
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid variables.$border-color;
+    border-radius: variables.$border-radius;
+    color: variables.$dark;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: variables.$font-size-2;
+    font-weight: 500;
+    gap: variables.$space-unit-1;
+    padding: 5px 14px;
+    transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+    white-space: nowrap;
+
+    &:not(:disabled):hover {
+      background-color: variables.$primary;
+      border-color: variables.$primary;
+      color: #ffffff;
+    }
+
+    &:not(:disabled):active {
+      background-color: #004d73;
+      border-color: #004d73;
+      color: #ffffff;
+    }
+
+    &:focus-visible {
+      outline: 2px solid rgba(0, 102, 153, 0.4);
+      outline-offset: 1px;
+    }
+
+    &:disabled {
+      background-color: #f7f7f7;
+      border-color: #e8e8e8;
+      color: #aaaaaa;
+      cursor: not-allowed;
+    }
+  }
+
+  &__btn-icon {
+    font-size: 16px;
+    line-height: 1;
   }
 }
