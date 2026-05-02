@@ -1,0 +1,26 @@
+@use 'variables.scss';
+
+.pagination {
+  &--controls {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: space-between;
+  }
+
+  &__left,
+  &__right {
+    align-items: center;
+    display: flex;
+  }
+
+  &__left {
+    margin-bottom: 0;
+  }
+
+  &__page-label {
+    color: variables.$dark;
+    font-weight: 500;
+  }
+}
