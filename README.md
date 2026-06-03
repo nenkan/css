@@ -24,6 +24,11 @@ If you want to use a CDN version:
 <link rel="stylesheet" href="https://unpkg.com/@nenkan/css@0.10.0/dist/index.css">
 ```
 
+## Layout helpers
+
+- `.container`: centered fixed-width container.
+- `.container--fluid`: full-width container with responsive page gutters.
+
 ## Deployment
 
 Bump the `version` property in package.json. Make sure to update any other relevant files where a new version should be specified. Then, commit that and tag that commit with the version in the format: `vX.Y.Z`, where X is the major version, Y the minor version, and Z the patch version. For example: `v0.8.0`.
