@@ -9,3 +9,25 @@
     width: 100%;
   }
 }
+
+.container--fluid {
+  margin: 0;
+  max-width: none;
+  padding-left: variables.$space-unit-3;
+  padding-right: variables.$space-unit-3;
+  width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .container--fluid {
+    padding-left: variables.$space-unit-4;
+    padding-right: variables.$space-unit-4;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .container--fluid {
+    padding-left: calc(variables.$space-unit-4 + variables.$space-unit-2);
+    padding-right: calc(variables.$space-unit-4 + variables.$space-unit-2);
+  }
+}
