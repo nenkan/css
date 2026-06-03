@@ -21,7 +21,7 @@ import '@nenkan/css/dist/index.css'
 If you want to use a CDN version:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/@nenkan/css@0.10.0/dist/index.css">
+<link rel="stylesheet" href="https://unpkg.com/@nenkan/css@0.25.0/dist/index.css">
 ```
 
 Layout documentation is available under `docs/`.
