@@ -24,10 +24,7 @@ If you want to use a CDN version:
 <link rel="stylesheet" href="https://unpkg.com/@nenkan/css@0.10.0/dist/index.css">
 ```
 
-## Layout helpers
-
-- `.container`: centered fixed-width container.
-- `.container--fluid`: full-width container with responsive page gutters.
+Layout documentation is available under `docs/`.
 
 ## Deployment
 
